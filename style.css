@@ -70,4 +70,11 @@ img{
 #msg{
     text-align: center;
     font-size: 2rem;
+    line-height: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: yellow;
+}
+.msg {
+    
 }

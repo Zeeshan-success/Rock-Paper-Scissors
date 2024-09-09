@@ -12,26 +12,26 @@
 
         <h1 id="heading">Welcome To Rock Paper Scissors</h1>
         <div id="options">
-            <div class="photo"><img src="images/rock.png" alt=""></div>
-            <div class="photo"><img src="images/paper.png" alt=""></div>
-            <div class="photo"><img src="images/scissors.png" alt=""></div>
+            <div class="photo" id="rock"><img src="images/rock.png" alt=""></div>
+            <div class="photo" id="paper"><img src="images/paper.png" alt=""></div>
+            <div class="photo" id="scissors"><img src="images/scissors.png" alt=""></div>
         </div>
 
         <div id="scoreCount">
             <div id="user">
-                <p>0</p>
+                <p id="userScore">0</p>
                 <h4>User</h4>
             </div>
             <div id="comp">
-                <p>0</p>
+                <p id="compScore">0</p>
                 <h4>Comp</h4>
             </div>
 
         </div>
 
-        <p id="msg">choose option</p>
+        <p id="msg" class="msg">choose option</p>
 
     </div>
-    
+    <script src="action.js"></script>
 </body>
 </html>
